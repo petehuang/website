@@ -293,3 +293,27 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://opensea.io/collection/maps-restored"
   },
 ];
+
+// Articles About Loot
+export const articleList: Record<string, string>[] = [
+  {
+    name: "Loot is a viral social network that looks like nothing you've ever seen - The Verge",
+    description: "",
+    url: "https://www.theverge.com/22655077/loot-social-network-open-source-nft",
+  },
+  {
+    name: "The Loot project flips the script on NFTs",
+    description: "",
+    url: "https://techcrunch.com/2021/09/03/loot-games-the-crypto-world/",
+  },
+  {
+    name: "NFT Traders are Dropping Millions on Text-Based LOOT Tokens - The Defiant",
+    description: "",
+    url: "https://thedefiant.io/loot-nfts/",
+  },
+  {
+    name: "Gimme the Loot! - Collisions",
+    description: "",
+    url: "https://collisions.substack.com/p/gimme-the-loot",
+  },
+];
