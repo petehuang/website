@@ -4,7 +4,8 @@ import {
   guildsList,
   marketsList,
   resourceList,
-  communityList
+  communityList,
+  articleList
 } from "@utils/lists"; // Lists
 import Layout from "@components/Layout"; // Layout wrapper
 import styles from "@styles/pages/Resources.module.scss"; // Page styles
@@ -38,6 +39,11 @@ const resources = [
     description: "Projects that remix or build on top of Loot. Please note that this list is community submitted and projects are *not* audited. Large errors are possible, up to and including loss of funds. Do your own research and proceed with caution:",
     list: derivativesList,
   },
+  {
+    title: "Articles About Loot",
+    description: "Articles that explain the origins of Loot and what it is:",
+    list: articleList,
+  }
 ];
 
 export default function Resources(): ReactElement {
